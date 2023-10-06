@@ -1,0 +1,108 @@
+div {
+    border-width: 1px;
+    border-color: blueviolet;
+    border-style: dotted;
+}
+
+@media only screen and (max-width: 480px) {
+    body {
+        background-color: yellow;
+    }
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto;
+    
+    grid-template-areas:
+            "Jacob       Jacob       Jacob       Jacob"
+            "Leah        Rachel      Bilhah      Zilpah"
+            "Reuben      Joseph      Dan         Gad"
+            "Simeon      Benjamin    Naphtali    Asher"
+            "Levi        .           .           ."
+            "Judah       .           .           ."
+            "Isaachar    .           .           ."
+            "Zebulon     .           .           ."
+            "Dinah       .           .           .";
+}
+
+.grid-item {
+    padding: 20px;
+}
+
+.person {
+    justify-self: center;
+}
+
+.jacob {
+    grid-area: Jacob;
+}
+
+.leah {
+    grid-area: Leah;
+}
+
+.rachel {
+    grid-area: Rachel;
+}
+
+.bilhah {
+    grid-area: Bilhah;
+}
+
+.zilpah {
+    grid-area: Zilpah
+}
+
+.reuben {
+    grid-area: Reuben;
+}
+
+.joseph {
+    grid-area: Joseph;
+}
+
+.dan {
+    grid-area: Dan;
+}
+
+.gad {
+    grid-area: Gad;
+}
+
+.simeon {
+    grid-area: Simeon;
+}
+
+.benjamin {
+    grid-area: Benjamin;
+}
+
+.naphtali {
+    grid-area: Naphtali;
+}
+
+.asher {
+    grid-area: Asher;
+}
+
+.levi {
+    grid-area: Levi;
+}
+
+.judah {
+    grid-area: Judah;
+}
+
+.isaachar {
+    grid-area: Isaachar;
+}
+
+.zebulon {
+    grid-area: Zebulon;
+}
+
+.dinah {
+    grid-area: Dinah;
+}
