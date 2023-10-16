@@ -4,35 +4,39 @@ div {
     border-style: dotted;
 }
 
-@media only screen and (max-width: 480px) {
-    body {
-        background-color: yellow;
-    }
-}
-
 .grid-container {
     display: grid;
     grid-template-columns: auto auto auto auto;
-    grid-template-rows: auto;
-    
+    grid-template-rows: auto auto auto auto auto auto auto auto auto;
     grid-template-areas:
-            "Jacob       Jacob       Jacob       Jacob"
-            "Leah        Rachel      Bilhah      Zilpah"
-            "Reuben      Joseph      Dan         Gad"
-            "Simeon      Benjamin    Naphtali    Asher"
-            "Levi        .           .           ."
-            "Judah       .           .           ."
-            "Isaachar    .           .           ."
-            "Zebulon     .           .           ."
-            "Dinah       .           .           .";
+        "Jacob       Jacob       Jacob       Jacob"
+        "Leah        Rachel      Bilhah      Zilpah"
+        "Reuben      Joseph      Dan         Gad"
+        "Simeon      Benjamin    Naphtali    Asher"
+        "Levi        .           .           ."
+        "Judah       .           .           ."
+        "Isaachar    .           .           ."
+        "Zebulon     .           .           ."
+        "Dinah       .           .           .";
 }
 
-.grid-item {
-    padding: 20px;
-}
-
-.person {
+.father {
+    padding: 50px;
     justify-self: center;
+}
+
+.mother {
+    padding: 25px;
+}
+
+.child {
+    padding-top: 12px;
+    padding-left: 50px;
+    padding-bottom: 12px;
+}
+
+.birthright {
+    font-weight: bold;
 }
 
 .jacob {
@@ -52,7 +56,7 @@ div {
 }
 
 .zilpah {
-    grid-area: Zilpah
+    grid-area: Zilpah;
 }
 
 .reuben {
