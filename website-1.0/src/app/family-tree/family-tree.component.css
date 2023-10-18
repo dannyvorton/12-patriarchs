@@ -27,11 +27,12 @@ div {
 
 .mother {
     padding: 25px;
+    padding-left: 75px;
 }
 
 .child {
     padding-top: 12px;
-    padding-left: 50px;
+    padding-left: 100px;
     padding-bottom: 12px;
 }
 
