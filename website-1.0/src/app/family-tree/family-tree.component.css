@@ -1,13 +1,38 @@
-div {
-    border-width: 1px;
-    border-color: blueviolet;
-    border-style: dotted;
+@media only screen and (max-width: 600px) {
+    div {
+        border-width: 1px;
+        border-color: blueviolet;
+        border-style: dotted;
+    }
 }
 
 .grid-container {
     display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-template-areas:
+        "Jacob"
+        "Leah"
+        "Reuben"
+        "Simeon"
+        "Levi"
+        "Judah"
+        "Isaachar"
+        "Zebulon"
+        "Dinah"
+        "Rachel"
+        "Joseph"
+        "Benjamin"
+        "Bilhah"
+        "Dan"
+        "Naphtali"
+        "Zilpah"
+        "Gad"
+        "Asher"
+        ;
+    @media only screen and (min-width: 600px) {
     grid-template-columns: auto auto auto auto;
-    grid-template-rows: auto auto auto auto auto auto auto auto auto;
+    /*grid-template-rows: auto auto auto auto auto auto auto auto auto;*/
     grid-template-areas:
         "Jacob       Jacob       Jacob       Jacob"
         "Leah        Rachel      Bilhah      Zilpah"
@@ -18,6 +43,7 @@ div {
         "Isaachar    .           .           ."
         "Zebulon     .           .           ."
         "Dinah       .           .           .";
+    }
 }
 
 .father {
@@ -34,10 +60,6 @@ div {
     padding-top: 12px;
     padding-left: 100px;
     padding-bottom: 12px;
-}
-
-.birthright {
-    font-weight: bold;
 }
 
 .jacob {
