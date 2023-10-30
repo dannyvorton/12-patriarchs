@@ -22,7 +22,6 @@ import { SimeonComponent } from './simeon/simeon.component';
 import { ZebulunComponent } from './zebulun/zebulun.component';
 import { DinahComponent } from './dinah/dinah.component';
 import { FamilyTreeComponent } from './family-tree/family-tree.component';
-import { PersonComponent } from './person/person.component';
 
 @NgModule({
   declarations: [
@@ -46,7 +45,6 @@ import { PersonComponent } from './person/person.component';
     ZebulunComponent,
     DinahComponent,
     FamilyTreeComponent,
-    PersonComponent
   ],
   imports: [
     BrowserModule,
